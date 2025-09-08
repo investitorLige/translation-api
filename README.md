@@ -5,6 +5,9 @@ This service exposes endpoints for translation so the model can be integrated in
 
 Port forwarded with ngrok to test but currently only defined so it can run localy 
 
+It is designed in mind to integrate my trained pytorch model with the flutter front. Currently as is in the code, its just fetching
+a trained huggingface translation model
+
 # Features
 
 REST API built with FastAPI.
