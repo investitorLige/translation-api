@@ -3,13 +3,13 @@
 A simple FastAPI REST API that serves the English → Serbian legal document translator model.
 This service exposes endpoints for translation so the model can be integrated into other applications.
 
+Port forwarded with ngrok to test but currently only defined so it can run localy 
+
 # Features
 
 REST API built with FastAPI.
 
 Endpoint for translating English text into Serbian legal language.
-
-Lightweight, easy to deploy (supports Docker/Uvicorn).
 
 Ready for integration with frontend apps or other services.
 
@@ -35,7 +35,7 @@ Response:
 
 Not yet deployed with docker
 
-Currently not running from server, only local
+Currently not running from a server, only local
 
 
 # Important Notes
